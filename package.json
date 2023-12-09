@@ -1,0 +1,21 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "run project with npm run dev",
+  "main": "app.js",
+  "scripts": {
+    "open": "npm run dev",
+    "dev": "http-server -o",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch --recursive --output css --source-map true --source-map-contents scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}
